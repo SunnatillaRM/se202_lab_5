@@ -46,7 +46,7 @@ class MyApp extends StatelessWidget {
             Padding(
               padding: EdgeInsets.all(20.0),
               child: TextField(
-                controller: TextEditingController(), // non-const
+                controller: TextEditingController(),
                 obscureText: true,
                 decoration: InputDecoration(
                   labelText: "Enter your password",
